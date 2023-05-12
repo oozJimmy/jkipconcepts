@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>James Kinsley Final Concepts</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+  
+<body>
+
+<div class="title"> Internet Programming Final Concepts Spring 2023</div>
+</div>
+
+
+<div class="sectionheading"> 25 Concepts</div>
+
+<button class="collapsible">1. Q2 Javascript Arrays </button>
+<div class="content">
+  <p>The push method adds a passed argument to the end of the array, whereas the pop method removes from the end of the array. The unshift method adds passed arguments to the front of the array whereas the shift method removes and returns the first index of the array. In order to use a js array as a stack one would use push and pop, but to utilize a queue one would use shift to get the front of the queue and push to add to the queue. </p>
+</div>
+
+<button class="collapsible">2. Q5 CSS Selectors </button>
+<div class="content">
+  <p>Attribute selectors in CSS use HTML tag attributes to denote which elements to add styles to. a[href] would apply to all HTML a tags with an href attribute.  Compound selectors use two or more selectors to denote elements. The selector p a would apply to all a tags within a p tag. Other selectors in CSS are class, id, the global all selector '*', and pseudo-selectors like :hover, :focus, :checked and :first-child. </p>
+</div>
+
+<button class="collapsible">3. Q6 JSON, XML , YAML, markdown</button>
+<div class="content">
+  <p>XML and JSON are both object notation formats, commonly found when accessing web servers. JSON uses brackets and curly brackets to denote arrays and objects, whereas XML uses angle brackets in a similar look to HTML tags. YAML is a markup language that uses tabs and colons to denote objects similar to how Python code is laid out. Markdown uses plain text instead of many special characters, using # and - to denote objects and lists. Both YAML and Markdown are very human readable.</p>
+</div>
+
+<button class="collapsible">4. Q7 JS libraries v frameworks</button>
+<div class="content">
+  <p>Two examples of JS frameworks are React and Angular, which control the flow of the program you write. Two examples of JS libraries are jQuery and Lodash which are very easy to include in an already existing program.</p>
+</div>
+
+<button class="collapsible">5. Q8 Javascript vs Typescript, Transpile, Node, ES6/7</button>
+<div class="content">
+  <p>Typescript is a superset of Javascript meaning that it adds extra functionality to the language, mainly it adds type checking to aid in the type checking problems of javascript. Typescript must be transpiled to JS before it can be used. In this process a javascript file is created that has the same funcitonality of the typescript code. NodeJs is not a javascript framework but is a runtime environment for javascript code. Typically in web development javascript code is run from an HTML file but NodeJs allows for standalone execution. Es6/7 is called EcmaScript and are different versions of a standard that defines semantics and syntax of the Javascript language. </p>
+</div>
+
+<button class="collapsible">6. Q9 NextJs, meteor and expressjs</button>
+<div class="content">
+  <p>All of these are Javascript frameworks but they differ slightly in how they funciton. Next is a react based framework for building only server side apps. Meteor is a full stack framework that creates both server side and client side of apps. Express is a lightweight framework that can be used to build web applications and well as APIs. It accomplishes this utilizing NodeJs.</p>
+</div>
+  
+<button class="collapsible">7. Q10 React vs Angular </button>
+<div class="content">
+  <ul>
+    <li>React is a library whereas angular is a framework</li>
+    <li>React allows for creation of reusable code components whereas angular provides many components ready to use</li>
+    <li>React is very easy to add to existing programs whereas angular programs are best created using angular from the start</li>
+    <li>React is very lightweight in terms of its impact, but angular is very heavy adding lots of features such as support for unit testing and code generation</li>
+  </ul>
+</div>
+
+<button class="collapsible">8. Q12 Task Runners</button>
+<div class="content">
+  <p>Two examples of task runners are Grunt and Gulp, which both work with Javascript. They use Gruntfile.js and gulpfile.js, respectively, to hold locations of specified tasks to run and resolve/reject event handler functions. </p>
+</div>
+
+<button class="collapsible">9. Q13 Ajax and XmlHttpRequest</button>
+<div class="content">
+  <p>Ajax, standing for Asynchronous JavaScript and XML, is a way to load documents on a webpage without reloading the page. One common implementation of this concept is XmlHttpRequest. Three common methods are open which takes in the desired HTTP request method, a URL and an async flag, send, which sends the XHR request to the server and abort, which will abort the XHR request if it is in progress. Three properties are readyState, which can have different values such as unsent, opened, loading and done, status, the HTTP response code and responseText, the body of the response.</p>
+</div>
+
+  <button class="collapsible">10. Q15  CSS, LESS, SASS</button>
+<div class="content">
+  <p>These three are all stylesheet languages that provide aesthetics to the front end of webpages. CSS is the standard in style languages, using different selectors to apply to desired HTML elements. Less is an extension upon CSS that includes variables and functions. Less can be compiled down into CSS. Sass also extends CSS and compiles down to it before running. Sass uses a different syntax than less but also adds similar features like variables.</p>
+</div>
+
+<button class="collapsible">11. Q14 npm, npx, nvm, package.json, package-lock.json  </button>
+<div class="content">
+  <p>Npm, nvm and npx are all associated with NodeJs standing for Node package manager, node version manager and node package runner. Npm is responsible for installing additional node modules or packages. Nvm allows the user to have multiple versions of Node on their machine and swithch between them. Npx allows the user to run packages or modules before actually installing them.</p>
+</div>
+
+<button class="collapsible">12. Q24 arrow functions  </button>
+<div class="content">
+  <p>Arrow funcitons can be used to write single expression functions such as (x) => x * 2;. They are commonly used to pass callback functions as arguments for event handlers like with promise ressolve and reject. Another use is using the 'this' keyword. When an arrow function is implemented it inherits the 'this' value from the scope of the parent.</p>
+</div>
+
+<button class="collapsible">13. Q21 Data attributes  </button>
+<div class="content">
+  <p>Data attributes are a feature in HTML and JavaScript that allow developers to attach custom data to HTML elements.</p>
+</div>
+
+<button class="collapsible">14. Q25 HTTP  </button>
+<div class="content">
+  <p>Different sections of an HTTP request are the request method such as GET, POST, PUT and DELETE. GET is the most common, retrieving data from a server. POST and PUT both upload data to a server. The request URL is the server URL, request headers are additional information for a request such as an API key for a request to an API, the request body is used for POST and PUT methods and contains the data to be uploaded. </p>
+</div>
+
+<button class="collapsible">15. Q32 HTTP Methods  </button>
+<div class="content">
+  <p>The GET method is used to retrieve data from a server. POST is used to submit data to the server or update existing data. The PUT method is strictly used to update existing data on the server. DELETE is used to delete a resource from the server. PATCH is used to update a certain section but not the entirety of a server resource, the request body holds the sections that will be updated. Two others are CONNECT and HEAD.</p>
+</div>
+
+
+
+  <button class="collapsible">16. Q30 Storybook, Cypress, Jest, Mocha, and Jasmine  </button>
+<div class="content">
+  <p>Storybook is a development and testing environment for UI elements of a web application. Cypres i sa resting tool that allows end-to-end testing, allowing users to write automated tests. Jest is a testing framework specifically for Javascript that can run unit tests, its commonly used in React. Mocha is a Javscirp t testing framework that can run either on Node or in the browser. Jasmine is also a testing framework for Javascript focused on Behavior Driven Development.</p>
+</div>
+
+<button class="collapsible">17. Q34 Vanilla JS, jQuery, jQueryUI</button>
+<div class="content">
+  <p>jQuery and jQueryUI are javascript libraries that provide a set of functions to mae it easier to manipulate HTML code. jQuery and jQuery may be slightly slower than vanilla JS but they can be easier to learn, and they also have built in compatability for different browsers. jQuery is very commonly used in dom manipulation, eliminating the need for the verbose document.getElementByXXX code with a simple ${} syntax.</p>
+</div>
+
+<button class="collapsible">18. Q35 Same Origin Policy  </button>
+<div class="content">
+  <p>The same origin policy is a security measure implemented by web browsers that restricts web pages from making requests to a different domain than the one that the web page originated from.</p>
+</div>
+
+<button class="collapsible">19. Q41 OAuth  </button>
+<div class="content">
+  <p>One difference between OAuth1 and OAuth2 is that the latter only requires one access token instead of an access and secret token. Oauth1 uses digital signals for its signatures where its successor uses SSL/TLS encryption. Oauth2 allows users to specify access to specific resources instead of all-or-nothing like OAuth1 </p>
+</div>
+
+<button class="collapsible">20. Q43 Client-Server Apps, socket programming, ip address, tcp  </button>
+<div class="content">
+  <p>Client-Server is an architecture that splits applications into two sides, the client side that processes input and displays data to the user and the server that manages the storing of data. Socket programming is a way of communicating between two processes running on different devices over a network using sockets. A socket is a software component that enables two processes to establish a connection and exchange data over a network. An ip address is a number that each server has that is its identifier for programs that would like to exchange data with it. TCP is a type of network connection that establishes a secure connection via a handshake to communicate over a network.</p>
+</div>
+
+<button class="collapsible">21. Q17 Compute Engine v App engine  </button>
+<div class="content">
+  <p>The compute engine is googles offering of Infrastructure as a Service, providing the resources to make computations for a program, however you have to manage these resources. The App engine from Google is an Infrastructure as a Service which is a managed platform that allows the developer to focus on building the application itself.</p>
+</div>
+
+<button class="collapsible">22. Q36 React Component Lifecycle Phases  </button>
+<div class="content">
+  <p>The mounting phase is when the component is created and inserted, or mounted into the DOM. The update phase is when the component is re-rendered due to changes in its props or state. The last is the unmounting phase, during the unmounting phase, the component is removed from the DOM.</p>
+</div>
+
+<button class="collapsible">23. Q42 Session, session storage, local storage, and IndexedDB</button>
+<div class="content">
+  <p>Session, session storage, local storage, and IndexedDB are all ways to store data in a web browser. Session data is stored on the server side temporarily and is lost when the browser is closed. Session storage is a way to store data temporarily on the client-side during a browsing session. Local storage is a way to store data on the client-side for an extended period of time, even after the browser is closed. IndexedDB is a full fledged NoSQL database on the client side that is much more powerful than session or session storage. </p>
+</div>
+
+<button class="collapsible">24. Q18 Tailwind and alternatives</button>
+<div class="content">
+  <p>One alternative to tailwind is Bootstrap. Bootstrap offers slightly more complete components and CSS styles that can be used out of the box. Another is Bulma, unlike Tailwind, which provides a utility-first approach to building styles, Bulma takes a more modular approach, providing a set of reusable UI components that can be easily combined to create custom designs. Another alternative is Materialize, which differs similarly to bootstrap in that it has more complete components out of the box. </p>
+</div>
+
+<button class="collapsible">25. Q4 Netlify and Back4App</button>
+<div class="content">
+  <p>Netlify and Back4App are both popular cloud platforms used for developing and deploying web applications. One difference is that back4app provides a fully managed database, whereas netlify users have to find their own database to use. Another difference is that netlify is more flexible in working with other frameworks and build tools, whereas back4app provides a more specific set of tools for its users to work with. Alternatives to these are Heroku, Firebase and AWS amplify.</p>
+</div>
+  
+<!-- end here-->
+<script src="script.js"></script>
+
+</body>
+</html>
